@@ -18,6 +18,10 @@ public class Driver {
         return driver;
     }
 
+    public static AppiumDriver<?> getDriver(){
+        return driver;
+    }
+
 
     public static void runAppium(){
         service = new AppiumServiceBuilder()
